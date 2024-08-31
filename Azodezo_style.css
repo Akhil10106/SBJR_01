@@ -136,6 +136,13 @@ body {
 p {
     text-align: center;
   }
+  .five{
+    position: relative;
+    width: 200px;
+    height: auto;
+    top: -70px;
+    left: -40px;
+  }
 .product-cart {
     border: 1px solid #ebebeb;
     padding: 13px;
@@ -164,33 +171,36 @@ p {
     top: 50px;
 }
 .price{
-    position: relative;
-    left: -380px;
-    top: 75px;
-    font-size: 2em;
-    font-weight: bold;
+  position: relative;
+  left: -300px;
+  top: -60px;
+  font-size: 2em;
+  font-weight: bold;
 }
 .buy_button{
-    position: relative;
-    width: 170px;
-    height: 40px;
-    font-size: 1.1em;
-    border-radius: 50px;
-    background-color: #088178;
-    color: #000;
-    font-weight: bold;
-    letter-spacing: 1px;
-    left: -852px;
-    top: 150px;
-    transition: 0.3s;
+  position: relative;
+  width: 200px;
+  height: 50px;
+  font-size: 1.1em;
+  border-radius: 50px;
+  background-color: #088178;
+  color: #000;
+  font-weight: bold;
+  letter-spacing: 1px;
+  left: 160px;
+  top: -350px;
+  line-height: 21px;
+  transition: 0.3s;
 }
 .buy_button:hover{
-    box-shadow: 5px 5px 20px;
-    top: 145px;
-    letter-spacing: 2px;
-    background-color: transparent;
-    border: 3px solid #088178;
-    font-size: 1.2em;
+  box-shadow: 5px 5px 20px;
+  top: -345px;
+  width: 210px;
+  height: 60px;
+  letter-spacing: 2px;
+  background-color: transparent;
+  border: 3px solid #088178;
+  font-size: 1.2em;
 }
 
 .product-cart:hover {
