@@ -8,7 +8,7 @@
   box-sizing: border-box;
   font-family: "League Spartan", sans-serif;
 }
-.sbjrr{
+.sbjrr {
   text-decoration: none;
 }
 
@@ -18,36 +18,33 @@ h1 {
   color: #222;
 }
 h2 {
-    position: relative;
-    left: 580px;
-    line-height: 50px;
+  position: relative;
+  left: 580px;
+  line-height: 50px;
 }
-.companies{
-    position: relative;
-    left: 200px;
+.companies {
+  position: relative;
+  left: 200px;
 }
-.choose{
-    position: relative;
-    left: 620px;
+.choose {
+  position: relative;
+  left: 620px;
 }
-.visit{
-    position: relative;
-    left: 670px;
+.visit {
+  position: relative;
+  left: 670px;
 }
-
-.time{
-    position: relative;
-    left: 630px;
+.time {
+  position: relative;
+  left: 630px;
 }
-
-.times{
-    position: relative;
-    left: 350px;
+.times {
+  position: relative;
+  left: 350px;
 }
-
-.join{
-    position: relative;
-    left: 650px;
+.join {
+  position: relative;
+  left: 650px;
 }
 
 h4 {
@@ -72,7 +69,7 @@ p {
 
 button.normal {
   font-size: 14px;
-  font-weight: 600px;
+  font-weight: 600;
   padding: 15px 30px;
   color: #000;
   background-color: #fff;
@@ -100,7 +97,7 @@ body {
   padding: 20px 80px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
   z-index: 999;
-  position:fixed;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -127,16 +124,6 @@ body {
   transition: 0.3s ease;
 }
 .header-list-nav ul a:hover,
-.header-list-nav ul a.active {
-  color: #088178;
-  content: "";
-}
-.header-list-icon a {
-  color: #1a1a1a;
-  padding-left: 20px;
-  transition: 0.3s ease;
-}
-.header-list-icon a:hover,
 .header-list-nav ul a.active {
   color: #088178;
 }
@@ -170,17 +157,16 @@ body {
   padding-bottom: 25px;
   font-size: 40px;
 }
-#hero h2{
+#hero h2 {
   padding-bottom: -100px;
   font-size: 4em;
-
 }
 #hero h1 {
   color: #088178;
   font-size: 70px;
 }
 
-#hero p{
+#hero p {
   color: #fff;
 }
 
@@ -247,7 +233,7 @@ body {
   background-color: #fff2e5;
 }
 
-/* feature section styles */
+/* product section styles */
 
 .product-section .pro-collection {
   display: flex;
@@ -323,11 +309,6 @@ body {
   color: #eaebf0;
   padding: 20px 0;
 }
-
-/* new arrival section styles 
-  this section gets the same styles 
-  in featured products section
-*/
 
 /* banners section styles */
 
@@ -441,7 +422,6 @@ span {
   background-color: #d1d0d0;
   border-radius: 6px 0 0 6px;
   font-size: 18px;
-
   border: none;
   outline: none;
   margin-right: -4px;
@@ -461,32 +441,161 @@ span {
 
 /* footer section styles */
 
-#footer{
+#footer {
   display: flex;
-  align-items:flex-start;
+  align-items: flex-start;
   justify-content: space-between;
   padding: 75px;
   background-color: #ececec;
 }
-#footer div{
+#footer div {
 }
-#footer p, #footer a{
+#footer p,
+#footer a {
   color: rgb(109, 109, 109);
   text-decoration: none;
 }
-#footer a:hover{
-  color:#088178;
+#footer a:hover {
+  color: #088178;
 }
-#footer .about a{
+#footer .about a {
   display: block;
-  padding:8px 0;
+  padding: 8px 0;
 }
-#footer .myaccount a{
+#footer .myaccount a {
   display: block;
-  padding:8px 0;
+  padding: 8px 0;
 }
-#footer .download img{
+#footer .download img {
   border: 1px solid #08817969;
   border-radius: 7px;
 }
 
+/* Responsive Design */
+
+/* Tablets (Portrait) */
+@media (max-width: 768px) {
+  #header {
+    padding: 20px 40px;
+  }
+
+  .header-list-nav ul {
+    flex-direction: column;
+  }
+
+  .header-list-nav ul li {
+    padding: 10px 0;
+  }
+
+  #hero {
+    padding: 0 20px;
+    height: auto;
+    text-align: center;
+  }
+
+  #hero h1 {
+    font-size: 50px;
+  }
+
+  #hero h2 {
+    font-size: 3em;
+  }
+
+  #features {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #features .f-box {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .product-section {
+    margin: 0 20px;
+  }
+
+  .product-section .product-cart {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #newsletter {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  #newsletter .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #newsletter .form input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  #newsletter .form button {
+    width: 100%;
+  }
+
+  #footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+  }
+
+  #footer div {
+    margin-bottom: 20px;
+  }
+}
+
+/* Mobile Phones (Portrait) */
+@media (max-width: 480px) {
+  #hero h1 {
+    font-size: 40px;
+  }
+
+  #hero h2 {
+    font-size: 3em;
+  }
+
+  #hero p {
+    font-size: 14px;
+  }
+
+  button.normal {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+
+  #features .f-box {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .product-section .product-cart {
+    width: 100%;
+    padding: 10px;
+  }
+
+  #banners .big-banners div,
+  #banners .small-banners div {
+    min-width: 100%;
+    height: auto;
+    padding: 15px;
+  }
+
+  #banners .small-banners-1,
+  #banners .small-banners-2,
+  #banners .small-banners-3 {
+    min-width: 100%;
+    height: auto;
+  }
+
+  #footer {
+    padding: 20px;
+  }
+}
